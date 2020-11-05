@@ -14,7 +14,7 @@ namespace StaticExercise
 
         public static double CelsiusToFahrenheit(double cTemp)
         {
-            return ((cTemp / 5) * 9) + 32;
+            return (cTemp * 1.8) + 32;
         }
 
     }
